@@ -1,0 +1,91 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: center;
+    margin: 0;
+    padding: 100px 0;
+    background: linear-gradient(#ffffff, #f9d6d6);
+    font-family: 'Steph', sans-serif;
+    background-image:url(Assest/Background2.jpg);
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+}
+
+@font-face {
+    font-family: "Steph";
+    src: url("Assest/steph-font-bold\ \(1\).ttf");
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Steph";
+    src: url("Assest/steph-font-bold\ \(1\).ttf");
+    font-weight: bold;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto 0 auto;
+}
+
+#togepi-gif {
+    width: 500px;
+    height: 400px;
+    object-fit: cover;
+}
+
+h1 {
+    font-size: 3rem;
+    margin: 50px auto;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+button {
+    border-radius: 8px;
+    min-width: 100px;
+    max-width: 500px;
+    border: none;
+    cursor: pointer;
+    padding: 10px 30px;
+    white-space: nowrap;
+    font-size: 1.3rem;
+    font-weight: 500;
+    transition: transform 0.3s ease,
+}
+
+button:hover {
+    scale: 1.05;
+}
+
+#yes-btn {
+    transform-origin: center top;
+    color:white;
+    background-color: #57915e;
+}
+
+#no-btn {
+    color:white;
+    background-color: #db4e4e;
+}
+
+
+#GON {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px; /* Adds rounded corners to the image */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow for depth */
+}
